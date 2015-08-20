@@ -1,6 +1,5 @@
 require "cuba/test"
 require "./hello_world"
-
 scope do
   test "Homepage" do
     get "/"
